@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+:root{
+    --main-color-font: #fff;
+    --big-font-family: 'Montserrat', sans-serif;
+    --content-font-family: 'Poppins', sans-serif;
+    --font-big-size: 1.5rem;
+    --font-content-size: 1rem;
+    --first-color: #2B2129;
+    --second-color: #C4A1BD;
+    --third-color: #83727F;
+    --forth-color: #322013;
+    --fifth-color: #614C3E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--first-color);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: var(--big-font-family);
+    font-weight: 700;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+
+li, a{
+    list-style: none;
+    color: #fff;
+    margin-left: 40px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.main-but{
+    font-family: var(--big-font-family);
+    background-color: var(--third-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    width: 155px;
+}
+
+.catagorie{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catagorie h2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--content-font-family);
+}
+
+.no-fill{
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--content-font-family);
+    cursor: pointer;
+}
+
+.fill{
+    background-color: #fff;
+    border: none;
+    outline: 0;
+    color: #000;
+    font-family: var(--content-font-family);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cata-brand h2{
+    margin: 50px 0px 20px 30px;
+    font-family: var(--big-font-family);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo:nth-of-type(1){
+    background-image: url(/img/catagories/nike.png);
+    background-size: 100%;
+    height:60px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    width: 110px;
+}
+
+.logo:nth-of-type(2){
+    background-image: url(/img/catagories/reebok.png);
+    background-size: 100%;
+    height:50px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    width: 200px;
+}
+
+.logo:nth-of-type(3){
+    background-image: url(/img/catagories/supreme-logo.jpg);
+    background-size: 100%;
+    height:90px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    width: 200px;
+}
+
+.logo:nth-of-type(4){
+    background-image: url(/img/catagories/lv.png);
+    background-size: 100%;
+    height: 90px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    width: 70px;
+}
+
+.logo:nth-of-type(5){
+    background-image: url(/img/catagories/assc.png);
+    background-size: 100%;
+    height: 90px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    width: 70px;
+}
+
+.cata-type > h2{
+    margin: 50px 0px 20px 30px;
+    font-family: var(--big-font-family);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.types{
+    display: flex;
+    justify-content: space-around;
+}
+
+.type:nth-of-type(1){
+    background-image: url(/img/catagories/s.png);
+    background-size: 100%;
+    object-fit: cover;
+    height: 122.97971491228px;
+    width: 170px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.type:nth-of-type(2){
+    background-image: url(/img/catagories/jak.png);
+    background-size: 100%;
+    object-fit: cover;
+    height: 122.97971491228px;
+    width: 170px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.type:nth-of-type(3){
+    background-image: url(/img/catagories/shirt.png);
+    background-size: 100%;
+    object-fit: cover;
+    height: 122.97971491228px;
+    width: 170px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.type:nth-of-type(4){
+    background-image: url(/img/catagories/jejez.png);
+    background-size: 100%;
+    object-fit: cover;
+    height: 122.97971491228px;
+    width: 170px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.genres > h2{
+    margin: 50px 0px 20px 30px;
+    font-family: var(--big-font-family);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.btns-gen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boy{
+    color: #0a9396;
+    font-size: 28px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.girl{
+    color: #f72585;
+    font-size: 28px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.age-bbs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.age-bb > h2{
+    margin: 50px 0px 20px 30px;
+    font-family: var(--big-font-family);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.age-bbs{
+    font-family: var(--big-font-family);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.input-info{
+    font-family: var(--big-font-family);
+    opacity: 50%;
+    display: flex;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    outline: none;
+    width: 60px;
+    font-size: 20px;
+}
+
+.final{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 70px 30px 0px;
+}
+
+.no-be{
+    font-family: var(--big-font-family);
+    color: #fff;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.with-be{
+    font-family: var(--big-font-family);
+    color: #000;
+    font-size: 20px;
+    background-color: #fff;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+:root{
+    --main-color-font: #fff;
+    --big-font-family: 'Montserrat', sans-serif;
+    --content-font-family: 'Poppins', sans-serif;
+    --font-big-size: 1.5rem;
+    --font-content-size: 1rem;
+    --first-color: #2B2129;
+    --second-color: #C4A1BD;
+    --third-color: #83727F;
+    --forth-color: #322013;
+    --fifth-color: #614C3E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+header h1{
+    color: #fff;
+    padding: 40px;
+    font-family: var(--big-font-family);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.QQ h2{
+    color: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: var(--big-font-family);
+}
+
+.QQ-btn {
+    gap: 50px;
+    justify-content: center;
+/*     align-items: center;
+ */    display: flex;
+}
+
+.btn-cho{
+    background-color: #b7b7a4;
+    color:#fff;
+    border: none;
+    padding: 40px;
+    cursor: pointer;
+    font-family: var(--big-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.s-talk > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: var(--content-font-family);
+    font-size: 12px;
+
+}
+
+.underline, a{
+    font-size: 12px;
+
+    font-family: var(--content-font-family);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: underline 2px;
+    padding-top: 10px;
+    color: #fff;
+}
