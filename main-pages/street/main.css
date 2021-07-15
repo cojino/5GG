@@ -348,13 +348,72 @@ li, a{
     margin: 0px 15px 0px 15px;
 }
 
-footer{
-/*     background-color: var(--second-color);
- */    width: 1000px;
-    height: 1000px;
+#all-icon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
 }
 
-.first-p h3{
-    font-size: 300px;
-    color: white;
+.footer-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-cont i{
+    margin-bottom: 7px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--third-color);
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+footer hr {
+    border: none;
+    background-color: var(--third-color);
+    color: var(--third-color);
+    height: 1px;
+    width: 80%;
+    margin: 20px 10% 50px 10%;
+    opacity: 50%;
+}
+
+.more-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.last-in h4{
+    margin-bottom: 10px;
+}
+
+.last-search{
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.last-search > i{
+    font-size: 20px;
+    color: #777;
+}
+
+.last-search > input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
 }
