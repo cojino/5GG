@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
 
 :root{
     --main-color-font: #fff;
@@ -14,6 +15,10 @@
     --fifth-color: #614C3E;
 }
 
+html{
+    height: 100%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +29,9 @@ body{
     background-color: var(--first-color);
     color: #fff;
     overflow-x: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
  
 header{
@@ -64,26 +72,30 @@ li, a{
 .search-in{
     font-family: var(--content-font-family);
     font-weight: bold;
-    opacity: 50%;
-    padding: 20px;
-    padding-left: 30px;
-    border-radius: 20px;
-    width: 250px;
-    height: 30px;
-    outline: 0;
+    flex: 1;
+    height: 40px;
     border: none;
-    position: absolute;
+    font-size: 18px;
+    outline: none;
+    padding-left: 10px;
 }
 
 
 .search{
     display: flex;
     align-items: center;
-    left: 40%;
+    width: 400px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
     position: relative;
+    left: 35%;
 }
 
 .fa-search{
+    font-size: 20px;
+    color: #777;
     display: flex;
     margin-left: 10px;
     cursor: pointer;
@@ -322,6 +334,7 @@ li, a{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .per-nex button{
@@ -338,6 +351,12 @@ li, a{
     border-radius: 50px;
 }
 
+.round{
+    background-color: var(--fifth-color) !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 
 .num-per-nex{
     background-color: transparent;
@@ -354,6 +373,11 @@ li, a{
     margin-top: 20px;
     align-items: center;
     text-align: center;
+}
+
+footer{
+    margin-top: auto;
+    background-color: #291124;
 }
 
 .footer-cont{
@@ -375,6 +399,10 @@ li, a{
     border-radius: 50%;
 }
 
+.footer-cont p{
+    font-family: var(--content-font-family);
+}
+
 footer hr {
     border: none;
     background-color: var(--third-color);
@@ -392,6 +420,18 @@ footer hr {
 
 .last-in h4{
     margin-bottom: 10px;
+    font-family: var(--content-font-family);
+}
+
+.last-in p{
+    font-family: var(--content-font-family);
+    margin-top: -5px;
+    font-size: 13px;
+    color: var(--third-color);
+}
+
+.p-search{
+    margin-top: 10px !important;
 }
 
 .last-search{
@@ -416,4 +456,36 @@ footer hr {
     outline: none;
     font-size: 18px;
     padding-left: 10px;
+}
+
+.social-con{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30%;
+    font-size: 25px;
+    color: var(--third-color);
+    margin-top: 20px;
+}
+
+.social-con i{
+    border: 2px solid var(--third-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.final-for-c{
+    background-color: #1d0015;
+}
+
+.final-for-c p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 300;
+    font-family: var(--content-font-family);
+    color: var(--third-color);
 }
