@@ -71,17 +71,15 @@ header h1{
 
 }
 
-.underline, a{
+.underline{
     font-size: 12px;
-
     font-family: var(--content-font-family);
-
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 12px;
     cursor: pointer;
     text-decoration: underline 2px;
-    padding-top: 10px;
     color: #fff;
 }

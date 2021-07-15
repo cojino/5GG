@@ -214,6 +214,7 @@ li, a{
 
 .img-clo img{
     width: 280px;
+    border-radius: 20px;
 }
 
 .img-clo{
@@ -233,83 +234,83 @@ li, a{
     ;
 }
 
-img-clo-grid:nth-of-type(1){
+.img-clo-grid:nth-of-type(1){
     grid-area: girl01;
 }
 
-img-clo-grid:nth-of-type(2){
+.img-clo-grid:nth-of-type(2){
     grid-area: girl02;
 }
 
-img-clo-grid:nth-of-type(3){
+.img-clo-grid:nth-of-type(3){
     grid-area: girl03;
 }
 
-img-clo-grid:nth-of-type(4){
+.img-clo-grid:nth-of-type(4){
     grid-area: girl04;
 }
 
-img-clo-grid:nth-of-type(5){
+.img-clo-grid:nth-of-type(5){
     grid-area: girl05;
 }
 
-img-clo-grid:nth-of-type(6){
+.img-clo-grid:nth-of-type(6){
     grid-area: girl06;
 }
 
-img-clo-grid:nth-of-type(7){
+.img-clo-grid:nth-of-type(7){
     grid-area: girl07;
 }
 
-img-clo-grid:nth-of-type(8){
+.img-clo-grid:nth-of-type(8){
     grid-area: girl08;
 }
 
-img-clo-grid:nth-of-type(9){
+.img-clo-grid:nth-of-type(9){
     grid-area: girl09;
 }
 
-img-clo-grid:nth-of-type(10){
+.img-clo-grid:nth-of-type(10){
     grid-area: girl10;
 }
 
-img-clo-grid:nth-of-type(11){
+.img-clo-grid:nth-of-type(11){
     grid-area: girl11;
 }
 
-img-clo-grid:nth-of-type(12){
+.img-clo-grid:nth-of-type(12){
     grid-area: girl12;
 }
 
-img-clo-grid:nth-of-type(13){
+.img-clo-grid:nth-of-type(13){
     grid-area: girl13;
 }
 
-img-clo-grid:nth-of-type(14){
+.img-clo-grid:nth-of-type(14){
     grid-area: girl14;
 }
 
-img-clo-grid:nth-of-type(15){
+.img-clo-grid:nth-of-type(15){
     grid-area: girl15;
 }
 
-img-clo-grid:nth-of-type(16){
+.img-clo-grid:nth-of-type(16){
     grid-area: girl16;
 }
 
-img-clo-grid:nth-of-type(17){
+.img-clo-grid:nth-of-type(17){
     grid-area: girl17;
 }
 
-img-clo-grid:nth-of-type(18){
+.img-clo-grid:nth-of-type(18){
     grid-area: girl18;
 }
 
-img-clo-grid:nth-of-type(19){
+.img-clo-grid:nth-of-type(19){
     grid-area: girl19;
 }
 
-img-clo-grid:nth-of-type(20){
+.img-clo-grid:nth-of-type(20){
     grid-area: girl20;
 }
 
