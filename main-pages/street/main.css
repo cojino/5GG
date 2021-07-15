@@ -219,8 +219,6 @@ li, a{
 
 .img-clo{
     display: grid;
-    height: 100vh;
-    width: auto;
     padding: 20px 0px 0px 65px;
     justify-content: space-around;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
@@ -232,6 +230,12 @@ li, a{
     "girl13 girl14 girl15 girl16"
     "girl17 girl18 girl19 girl20"
     ;
+}
+
+.img-clo-grid p{
+    font-family: var(--content-font-family);
+    padding-bottom: 20px;
+    padding-top: 5px;
 }
 
 .img-clo-grid:nth-of-type(1){
@@ -314,4 +318,43 @@ li, a{
     grid-area: girl20;
 }
 
+.per-nex{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+.per-nex button{
+    border: none;
+}
+
+#per-nex{
+    background-color: var(--third-color);
+    padding: 8px 15px;
+    color: var(--main-color-font);
+    font-family: var(--big-font-family);
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+
+.num-per-nex{
+    background-color: transparent;
+    color: var(--main-color-font);
+    font-family: var(--big-font-family);
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0px 15px 0px 15px;
+}
+
+footer{
+/*     background-color: var(--second-color);
+ */    width: 1000px;
+    height: 1000px;
+}
+
+.first-p h3{
+    font-size: 300px;
+    color: white;
+}
